@@ -25,7 +25,8 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+# skip_render:
+# - linux/passgen.html
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -67,9 +68,16 @@ theme: freemind
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo:
-    github: https://github.com/omaker/makersite.git
+- type: rsync
+  host: 10.10.12.73
+  user: x
+  root: /usr/local/www/imaker
+  delete: false # Default is true
+  # verbose: true # Default is true
+  # ignore_errors: [true|false] # Default is false
+# - type: git
+#   repo:
+#     github: https://github.com/omaker/makersite.git
 
 marked:
   gfm: true
