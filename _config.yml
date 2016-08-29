@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: iMaker uMaker Group
+title: EE.SUDA courses
 subtitle:
 description:
-author: iMaker.ee
+author: SEIE, Soochow University
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://maker.iee.io
+url: http://o.iee.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -75,9 +75,9 @@ deploy:
   delete: false # Default is true
   # verbose: true # Default is true
   # ignore_errors: [true|false] # Default is false
-# - type: git
-#   repo:
-#     github: https://github.com/omaker/makersite.git
+- type: git
+  repo:
+    github: https://github.com/su-da/website.git
 
 marked:
   gfm: true

@@ -1,14 +1,14 @@
 # iMaker Website
 
-The website for iMaker group. You can see the generated files at [omaker/makersite](https://github.com/omaker/makersite/tree/gh-pages) repository.
+The website for iEE courses. You can see the generated files at [su-da/website](https://github.com/su-da/website/tree/gh-pages) repository.
 
 ## Getting started
 
 Install dependencies:
 
 ``` bash
-$ git clone https://github.com/omaker/makersite.git
-$ cd makersite
+$ git clone https://github.com/su-da/website.git
+$ cd website
 $ npm install
 ```
 
